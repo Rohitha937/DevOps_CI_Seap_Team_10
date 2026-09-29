@@ -11,6 +11,10 @@ def get_winner(bidder, bid_amount):
     }
 
 
+def is_valid_bid(current_bid, new_bid):
+    return new_bid > current_bid
+
+
 if __name__ == "__main__":
     print("Online Auction Management System")
 
